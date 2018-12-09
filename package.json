@@ -1,0 +1,21 @@
+{
+  "name": "riotify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build > app.js"
+  },
+  "keywords": [],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "browserify": "^16.2.3",
+    "riotify": "^3.1.0"
+  },
+  "dependencies": {
+    "riot": "^3.13.2",
+    "riot-mui": "^0.1.1"
+  }
+}
